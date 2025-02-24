@@ -1,0 +1,54 @@
+/* js-draw overrides */
+:root .imageEditorContainer {
+    --primary-action-foreground-color: #2f72dc;
+}
+
+:root .toolbar-grid-selector>div {
+    --button-size: 38px;
+}
+
+:root .toolbar-edgemenu-container .toolbar-edgemenu input.coloris_input {
+    width: 30px;
+}
+
+:root .toolbar-edgemenu-container button {
+    font-size: 1em;
+}
+
+:root .toolbar-edgemenu-container .toolbar-edgemenu .toolbar-spacedList>div>label {
+    font-size: 0.875em;
+}
+
+:root .toolbar--pen-tool-toggle-buttons.toolbar--pen-tool-toggle-buttons {
+    padding-inline: 10px;
+}
+
+:root .toolbar--pen-tool-toggle-buttons.toolbar--pen-tool-toggle-buttons>button.toolbar--toggle-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+:root .toolbar-edgemenu-container .toolbar-edgemenu .toolbar-spacedList>.toolbar-thicknessSliderContainer {
+    padding-right: 10px;
+}
+:root .toolbar-grid-selector .choice-button {
+    margin-inline: 5px;
+}
+:root .toolbar-grid-selector .choice-button:first-child {
+    margin-left: 0;
+}
+:root .toolbar-grid-selector .choice-button:last-child {
+    margin-right: 0;
+}
+:root .toolbar-edgemenu-container .toolbar-edgemenu .toolbar-spacedList>div>input[type=text],
+:root .toolbar-edgemenu-container .toolbar-edgemenu .toolbar-spacedList>div>input[type=number],
+:root .toolbar-edgemenu-container .toolbar-edgemenu .toolbar-spacedList>div>select {
+    height: 36px;
+    padding-inline: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+:root .toolbar-edgemenu-container .toolbar-edgemenu .toolbar-spacedList>div>select {
+    padding-inline: 2px;
+    width: 100%;
+}
