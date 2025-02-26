@@ -1,0 +1,23 @@
+{
+  "name": "UtilEng",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@js-draw/material-icons": "^1.28.0",
+    "jquery": "^3.7.1",
+    "js-draw": "^1.28.0",
+    "jsdom": "^26.0.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.32",
+    "sass-embedded": "^1.85.0",
+    "vite": "^5.0.0",
+    "vite-plugin-web-extension": "^4.0.0",
+    "webextension-polyfill": "^0.10.0"
+  }
+}

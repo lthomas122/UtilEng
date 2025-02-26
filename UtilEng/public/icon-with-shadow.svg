@@ -1,0 +1,57 @@
+<svg width="585" height="585" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+      <radialGradient id="gradient-bg" cx="30%" cy="35%"
+      spreadMethod="reflect">
+        <stop offset="0%" stop-color="#2f72dc" />
+        <!-- <stop offset="15%" stop-color="#2a65c9"/> -->
+        <!-- <stop offset="35%" stop-color="#CCDBDC" /> -->
+        <stop offset="40%" stop-color="#1f94FF" />
+        <stop offset="80%" stop-color="#2f72dc" />
+      </radialGradient>
+      <linearGradient id="gradient-blue-geometric" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%"   stop-color="#CCDBDC" />
+        <stop offset="4%"   stop-color="#CCDBDCDD" />
+        <stop offset="50%" stop-color="#2a65c9" />
+      </linearGradient>
+      <linearGradient id="gradient-black-geometric" 
+      x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="49.5%"   stop-color="transparent" />
+        <stop offset="120%" stop-color="#2B2D42" />
+      </linearGradient>
+  </defs>
+  <rect width="92" height="92" x="2" y="2" rx="5" ry="5"
+  fill="url(#gradient-bg)" style="stroke:#2f72dc99; stroke-width:4;"/>
+
+  <g transform="translate(-4, -4)">
+
+    <rect x="20" y="20" width="64" height="64" fill="url(#gradient-blue-geometric)"/>
+    
+    <path d="M 20 20 L 20 84 L 84 84 M 41 20 L 41 84 M 63 20 L 63 84 M 84 20 L 84 84 M 20 20 L 84 20 M 20 41 L 84 41 M 20 63 L 84 63"
+          stroke="#F0F7F4"
+          fill="url(#gradient-black-geometric)"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round" />
+          
+          <path d="M 61 65 A 35 35 0 0 0 53 82.3"
+          stroke="#CCDBDC"
+          stroke-dasharray="1,2.5"
+          stroke-width="0.8"
+          fill="none"
+          stroke-linecap="square"/>
+          <!-- M 41.3 42 A 0 0 0 0 0 82.3 83 -->
+          <path d="M 43 43 A 0 0 0 0 0 82 82"
+          stroke="#CCDBDC"
+          stroke-dasharray="1.2,3.4, 2.4,4.2, 3.6,5, 4.8,7.2, 6,7.8, 
+          8.4, 7"
+          stroke-width="1"
+          fill="none"
+          stroke-linecap="round"/>
+    <path d="M 84 20 A 72 72 0 0 0 20 84"
+          stroke="#F0F7F4"
+          stroke-width="2"
+          fill="none"
+          stroke-linecap="round"/>
+
+  </g>
+</svg>
